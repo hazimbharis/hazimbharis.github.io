@@ -1,0 +1,44 @@
+
+@font-face {
+	font-family: 'basiic';
+	src: url('basiic.ttf');
+}
+
+body {
+	font-family: "basiic", sans-serif;
+	/*color: white;*/
+	/*background-color: #000000;*/
+	/*width: 880px;*/
+    width: 95%;
+	/*margin: 0 auto;*/
+    /*margin: 0px 10px 0px 10px;*/
+	font-size: 20px;
+}
+
+.actualContent {
+	padding: 15px;
+    border-top: 5px solid white;;
+	border-bottom: 5px solid white;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	background-color: black;
+	color: white;
+}
+
+.container__image {
+      display: inline-block;
+      vertical-align: top;
+      height: 200px
+      /*width: 46%;*/
+      /*margin: 20px 30px 0 0;*/
+    }
+.container__text {
+      display: inline-block;
+      /*width: 46%;*/
+      border-left: 5px solid white;
+      padding-left: 15px;
+      margin: 0 0 0 10px;
+      @media (max-width: 620px) {
+        width: 100%;
+      }
+    }
