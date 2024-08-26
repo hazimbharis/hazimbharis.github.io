@@ -15,12 +15,15 @@ body {
 	font-size: 20px;
 }
 
+#bg{
+    background-image: url("jad_background.png")
+}
+
 .actualContent {
 	padding: 15px;
-    border-top: 5px solid white;;
-	border-bottom: 5px solid white;
-	border-left: 5px solid white;
-	border-right: 5px solid white;
+	/*border-bottom: 5px solid white;*/
+	/*border-left: 5px solid white;*/
+	/*border-right: 5px solid white;*/
 	background-color: black;
 	color: white;
 }
@@ -31,7 +34,8 @@ body {
       height: 200px
       /*width: 46%;*/
       /*margin: 20px 30px 0 0;*/
-    }
+}
+
 .container__text {
       display: inline-block;
       /*width: 46%;*/
@@ -41,4 +45,4 @@ body {
       @media (max-width: 620px) {
         width: 100%;
       }
-    }
+}
