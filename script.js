@@ -2,10 +2,10 @@ $(function(){
   var x = 0;
   var y = 0;
   setInterval(function(){
-    x -=3;
-    y -=2;
+    x -=1;
+    y -=1;
     $('#bg').css('background-position', x + 'px ' + y +'px');
-  }, 50);
+  }, 30);
 });
 
 let slideIndex = [1,1,1,1];
